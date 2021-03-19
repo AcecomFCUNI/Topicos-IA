@@ -11,14 +11,14 @@
 - 18/03/21: README actualizado
 
  TODO:
-- ⬜️ Estructura de datos: Listas, tuplas y diccionarios.
-- ⬜️ Condicionales y bucles in-line (comprimidos), range, enumerate, reversed.
-- ⬜️ Manejo de archivos: with, open. Manejo de json`s.
-- ⬜️ Clases y métodos en python. Palabras clave:  __init__, __getitem__, __name__
+- ⬜️ Estructura de datos: Listas, tuplas y diccionarios
+- ⬜️ Condicionales y bucles in-line (comprimidos), range, enumerate, reversed
+- ⬜️ Manejo de archivos: with, open. Manejo de json's
+- ⬜️ Clases y métodos en python. Palabras clave:  *__init__*, *__getitem__*, *__name__*, etc
 - ⬜️ Manejo de excepciones
 - ⬜️ Introducción a PEP8
 - ⬜️ Matrices Numpy e introducción a tensores (lotes, canales, etc)
-- ⬜️ Métodos más usados por tensores: unsqueeze, reshape, etc.
+- ⬜️ Métodos más usados por tensores: unsqueeze, reshape, etc
 - ⬜️ Parseadores
 - ⬜️ Decoradores: Numba, tf.function, etc
 
