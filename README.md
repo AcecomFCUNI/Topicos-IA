@@ -26,10 +26,10 @@
 - 18/03/21: README actualizado
 
  TODO:
-- ⬜️ Tópico [***Python para ML y DL***]("Python%20para%20ML%20y%20DL") finalizado
-- ⬜️ Tópico [***ML para Data Science***]("ML%20para%20Data%20Science") finalizado
-- ⬜️ Tópico [***NLP***]("NLP") finalizado
-- ⬜️ Tópico [***Despliegue de modelos***]("Despligue%20de%20modelos") finalizado
+- ⬜️ Tópico [***Python para ML y DL***](Python%20para%20ML%20y%20DL) finalizado
+- ⬜️ Tópico [***ML para Data Science***](ML%20para%20Data%20Science) finalizado
+- ⬜️ Tópico [***NLP***](NLP) finalizado
+- ⬜️ Tópico [***Despliegue de modelos***](Despligue%20de%20modelos) finalizado
 
 ## ℹ️ Descripción
 En este repositorio encontrarás diversidad de tópicos de IA, dictados por miembros de ACECOM. El repositorio se actualizará en función de los nuevos temas que sean de interés para los miembros.
