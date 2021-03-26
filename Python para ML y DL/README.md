@@ -13,7 +13,7 @@
  TODO:
 - ✅ [Estructura de datos: Listas, tuplas y diccionarios](Notebooks/Class1.ipynb)
 - ✅ [Condicionales y bucles in-line (comprimidos), range, enumerate, reversed](Notebooks/Class2.ipynb)
-- ⬜️ Manejo de archivos: with, open. Manejo de json's
+- ✅ [Manejo de archivos: with, open. Manejo de json's](Notebooks/Class3.ipynb)
 - ⬜️ Clases y métodos en python. Palabras clave:  *__init__*, *__getitem__*, *__name__*, etc.
 - ⬜️ Funciones lambda
 - ⬜️ Manejo de excepciones
