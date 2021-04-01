@@ -14,10 +14,10 @@
 - ✅ [Estructura de datos: Listas, tuplas y diccionarios](Notebooks/Class1.ipynb)
 - ✅ [Condicionales y bucles in-line (comprimidos), range, enumerate, reversed](Notebooks/Class2.ipynb)
 - ✅ [Manejo de archivos: with, open. Manejo de json's](Notebooks/Class3.ipynb)
-- ⬜️ Clases y métodos en python. Palabras clave:  *__init__*, *__getitem__*, *__name__*, etc.
-- ⬜️ Funciones lambda
+- ✅ [Clases y métodos en python. Palabras clave:  *__init__*, *__getitem__*, *__name__*, etc.](Notebooks/Class4.ipynb)
+- ✅ [Funciones lambda](Notebooks/Class4.ipynb)
+- ✅ [Introducción a PEP8](Notebooks/Class4.ipynb)
 - ⬜️ Manejo de excepciones
-- ⬜️ Introducción a PEP8
 - ⬜️ Matrices Numpy e introducción a tensores (lotes, canales, etc)
 - ⬜️ Métodos más usados por tensores: unsqueeze, reshape, etc
 - ⬜️ Parseadores
