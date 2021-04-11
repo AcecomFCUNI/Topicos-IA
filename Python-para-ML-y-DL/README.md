@@ -16,11 +16,11 @@
 - ✅ [Manejo de archivos: with, open. Manejo de json's](Notebooks/Class3.ipynb)
 - ✅ [Clases y métodos en python. Palabras clave:  *__init__*, *__getitem__*, *__name__*, etc.](Notebooks/Class4.ipynb)
 - ✅ [Funciones lambda](Notebooks/Class4.ipynb)
-- ✅ [Introducción a PEP8](Notebooks/Class4.ipynb)
+- ✅ [Introducción a PEP8](Notebooks/Class5.ipynb)
 - ✅ [Manejo de excepciones](Notebooks/Class5.ipynb)
 - ✅ [Matrices Numpy e introducción a tensores (lotes, canales, etc)](Notebooks/Class5.ipynb)
-- ⬜️ Métodos más usados por tensores: unsqueeze, reshape, etc
-- ⬜️ Parseadores
-- ⬜️ Decoradores: Numba, tf.function, etc
+- ✅ [Métodos más usados por tensores: unsqueeze, reshape, etc](Notebooks/Class6.ipynb)
+- ✅ [Parseadores](Notebooks/Class6.ipynb)
+- ✅ [Decoradores: Numba, tf.function, etc](Notebooks/Class6.ipynb)
 
 
