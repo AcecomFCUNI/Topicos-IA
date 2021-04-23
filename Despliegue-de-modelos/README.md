@@ -7,10 +7,10 @@
 [![pytorch](https://img.shields.io/badge/PyTorch-1.7-EE4C2C.svg?style=flat&logo=pytorch)](https://pytorch.org)
 
 ## 🆕 Actualización
-- 18/03/21: README actualizado
+- 19/04/21: README actualizado
 
  TODO:
-- ⬜️ Introducción a Streamlit
+- ✅ Introducción a Streamlit
 - ⬜️ Introducción a Flask
 - ⬜️ Introducción a FastAPI
 - ⬜️ Torchserve y Tensorflowserve
