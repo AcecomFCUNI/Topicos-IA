@@ -8,13 +8,13 @@ En este tutorial se ha construido una app DL que aplica transferencia de estilo 
   
 ## Referencias
 Me he basado en los siguientes materiales:
-[Fast Neural Style](https://github.com/pytorch/examples/tree/master/fast_neural_style)
+- [Fast Neural Style](https://github.com/pytorch/examples/tree/master/fast_neural_style)
 
-[Streamlit website](https://www.streamlit.io/)
+- [Streamlit website](https://www.streamlit.io/)
 
-Y en especial de este [videotutorial](https://youtu.be/M3lZNbFJ6I0).
+Y en especial de este [videotutorial](https://youtu.be/M3lZNbFJ6I0)
 
-## Installation
+## Instalación
 Instale las siguientes dependencias
 ```console
 pip install streamlit

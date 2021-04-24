@@ -7,12 +7,13 @@
 [![pytorch](https://img.shields.io/badge/PyTorch-1.7-EE4C2C.svg?style=flat&logo=pytorch)](https://pytorch.org)
 
 ## 🆕 Actualización
-- 19/04/21: README actualizado
+- 23/04/21: README actualizado
 
  TODO:
-- ✅ Introducción a Streamlit
-- ⬜️ Introducción a Flask
-- ⬜️ Introducción a FastAPI
-- ⬜️ Torchserve y Tensorflowserve
+- ✅ [Introducción a Streamlit](Streamlit/)
+- ✅ [Introducción a Flask](Flask/)
+- ✅ [Pytorch en C++](Pytorch-cpp/)
+- ✅ [Introducción a FastAPI](FastAPI/streamlit-fastapi-model-serving/)
+- ✅ [TorchServe](Torch-Tensorflow-SERVE/TensorflowServing-Docker/) y [Tensorflow Serving](Torch-Tensorflow-SERVE/TorchServe-Docker/)
 - ⬜️ AWS: Sagemaker, S3, etc
-- ⬜️ Despliegue continuo integrado
+- ✅ [Mlflow](Mlflow/)
