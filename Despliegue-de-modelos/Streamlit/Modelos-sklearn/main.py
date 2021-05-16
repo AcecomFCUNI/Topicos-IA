@@ -42,6 +42,7 @@ def get_dataset(name):
     y = data.target
     return X, y
 
+
 X, y = get_dataset(dataset_name)
 st.write('Forma dataset:', X.shape)
 st.write('Número de clases:', len(np.unique(y)))
@@ -70,9 +71,10 @@ def get_classifier(clf_name, params):
     elif clf_name == 'KNN':
         clf = KNeighborsClassifier(n_neighbors=params['K'])
     else:
-        clf = clf = RandomForestClassifier(n_estimators=params['n_estimators'], 
+        clf = RandomForestClassifier(n_estimators=params['n_estimators'], 
             max_depth=params['max_depth'], random_state=1234)
     return clf
+
 
 clf = get_classifier(classifier_name, params)
 
@@ -103,6 +105,6 @@ plt.scatter(x1, x2,
 plt.xlabel('Componente principal 1')
 plt.ylabel('Componente principal 2')
 plt.colorbar()
-
 #plt.show()
 st.pyplot(fig)
+
