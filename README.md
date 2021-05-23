@@ -23,7 +23,7 @@
 
 
 ## 🆕 Actualización
-- 18/03/21: README actualizado
+- 23/05/21: README actualizado
 
  TODO:
 - ✅ Tópico [***Python para ML y DL***](Python-para-ML-y-DL) finalizado
