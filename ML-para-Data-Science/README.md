@@ -8,7 +8,7 @@
 
 
 ## 🆕 Actualización
-- 15/06/21: README actualizado
+- 21/06/21: README actualizado
 
  TODO:
 - ✅ [Introducción a Sklearn](Notebooks/Clase1.ipynb) [(ver extensión)](Notebooks/Clase1-extension.ipynb)
@@ -19,7 +19,8 @@
 - ✅ [Regresión logística](Notebooks/Clase7.ipynb) 
 - ✅ [Árboles de decisión](Notebooks/Clase8.ipynb) y [bosques aleatorios](Notebooks/Clase9.ipynb)
 - ✅ [SVM](Notebooks/Clase10.ipynb) y [aplicación real con hojas de papa](Notebooks/SVM/)
-- ⬜️ PCA
-- ⬜️ Gaussian Mixture
-- ⬜️ Métodos ensamblados
+- ✅ [Métodos ensamblados](Notebooks/Clase11.ipynb)
+- ✅ [PCA](Notebooks/Clase12.ipynb)
+- ✅ [Gaussian Mixture](Notebooks/Clase13.ipynb)
+
 
