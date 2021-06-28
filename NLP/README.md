@@ -12,8 +12,8 @@
 - 18/03/21: README actualizado
 
  TODO:
-- ⬜️ Tokenización, stemmer, padding
-- ⬜️ Bag of Words, GloVe
+- ✅ Tokenización, stemmer, padding
+- ✅ Bag of Words, GloVe
 - ⬜️ Words Embeddings: Visualizaciones PCA y T-sne
 - ⬜️ RNN
 - ⬜️ LSTM
