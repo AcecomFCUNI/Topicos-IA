@@ -9,11 +9,11 @@
 
 
 ## 🆕 Actualización
-- 18/03/21: README actualizado
+- 28/06/21: README actualizado
 
  TODO:
-- ✅ Tokenización, stemmer, padding
-- ✅ Bag of Words, GloVe
+- ✅ [Tokenización](./Notebooks/1_Tokenization_examples.ipynb), [stemmer, padding](./Notebooks/0_NLP_Basics.ipynb)
+- ✅ [Bag of Words](./Notebooks/2_Bag_of_Words.ipynb), [GloVe](./Noteboooks/4_GloVe.ipynb)
 - ⬜️ Words Embeddings: Visualizaciones PCA y T-sne
 - ⬜️ RNN
 - ⬜️ LSTM
