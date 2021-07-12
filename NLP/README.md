@@ -9,7 +9,7 @@
 
 
 ## 🆕 Actualización
-- 28/06/21: README actualizado
+- 11/07/21: README actualizado
 
  TODO:
 - ✅ [Tokenización](./Notebooks/1_Tokenization_examples.ipynb), [stemmer, padding](./Notebooks/0_NLP_Basics.ipynb)
