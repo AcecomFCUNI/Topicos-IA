@@ -14,9 +14,9 @@
  TODO:
 - ✅ [Tokenización](./Notebooks/1_Tokenization_examples.ipynb), [stemmer, padding](./Notebooks/0_NLP_Basics.ipynb)
 - ✅ [Bag of Words](./Notebooks/2_Bag_of_Words.ipynb), [GloVe](./Noteboooks/4_GloVe.ipynb)
-- ⬜️ Words Embeddings: Visualizaciones PCA y T-sne
-- ✅ [RNN](./generacion-nombres-RNN)
-- ⬜️ LSTM
+- ✅ [Words Embeddings Visualizaciones PCA y T-sne](./Notebooks/3_Word_Embeddings.ipynb)
+- ✅ [RNN y aplicación a generación de nombres](./generacion-nombres-RNN)
+- ✅ [LSTM y aplicación en la predicción de precios](./Notebooks/6_LSTM.ipynb)
 - ⬜️ Seq2Seq e introducción a mecanismos de atención
 - ⬜️ Transformers para NLP, repaso por Hugging Face 
 - ⬜️ Speech Recognition y TTS. Diagrama MEL

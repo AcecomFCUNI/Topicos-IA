@@ -12,7 +12,7 @@
 #### Uso
 ```
 python train.py
-python predict.py model
+python predict.py char-rnn-generation9.pt
 ```
 
 #### Algunos resultados (beam tamaño 3)
