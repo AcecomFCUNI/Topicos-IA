@@ -3,6 +3,8 @@ import torch.nn as nn
 from torch.autograd import Variable
 from data import *
 
+lenInput = lambda x: 1 if x.shape == torch.Size([1]) or x.shape == torch.Size([]) else x.shape
+
 DIM_EMBEDDING_CAR = 110
 DIM_EMBEDDING_CAT = 18
 
@@ -16,15 +18,14 @@ class RNN(nn.Module):
         self.lstm = nn.LSTM(DIM_EMBEDDING_CAT+DIM_EMBEDDING_CAR, hidden_size)
         self.toProbNextLetter = nn.Linear(hidden_size, output_size)
         #self.dropout = nn.Dropout(0.1)
-        self.softmax = nn.LogSoftmax()
+        self.softmax = nn.LogSoftmax(dim=1)
 
     def forward(self, category, input, hidden):
 
         car_embeds = self.embedding_car(input)
         cat_embeds = self.embedding_cat(category)
         # 28x28 -> 1 x 784
-        cat_embeds = cat_embeds.view(1, -1).repeat(len(input), 1)
-
+        cat_embeds = cat_embeds.view(1, -1).repeat(lenInput(input), 1)
         combined_input = torch.cat((car_embeds, cat_embeds), 1)
         combined_input = combined_input.unsqueeze(1)
 

@@ -3,6 +3,8 @@ from model import *
 from data import *
 import torch.nn as nn
 import torch.optim as optim
+import time
+import math
 
 EOS = n_letters - 2
 
@@ -42,17 +44,13 @@ def train(category_tensor, input_line_tensor, target_line_tensor):
     loss = 0
     hidden = rnn.initHidden()
     for i in range(input_line_tensor.size(0)):
-        output, hidden = rnn(category_tensor, input_line_tensor[i], hidden)
-        loss += criterion(output, target_line_tensor[i])
+        output, hidden = rnn(category_tensor, input_line_tensor[i].unsqueeze(0), hidden)
+        loss += criterion(output, target_line_tensor[i].unsqueeze(0))
     loss.backward()
     optimizer.step()
 
-    return output, loss.data[0] / input_line_tensor.size(0)
+    return output, loss.item() / input_line_tensor.size(0)
 
-
-
-import time
-import math
 
 def timeSince(since):
     now = time.time()
@@ -62,11 +60,9 @@ def timeSince(since):
     return '%dm %ds' % (m, s)
 
 
-
-
-n_iters = 100000
+n_iters = 10000
 print_every = 500
-save_every = 50000
+save_every = 1000
 all_losses = []
 total_loss = 0
 saves = 0

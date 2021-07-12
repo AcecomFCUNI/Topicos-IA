@@ -18,7 +18,7 @@ def getLetterIndex(top, j):
 
 def sample(category):
     category_tensor = Variable(categoryTensor(category))
-    input = [Variable(torch.LongTensor([SOS]))]
+    inp = [Variable(torch.LongTensor([SOS]))]
     hiddens = [rnn.initHidden()]*beam_size
     hprobs = [0]*beam_size
     names = ['']*beam_size
@@ -26,12 +26,12 @@ def sample(category):
     scores = []
     iters = 0
 
-    while len(input) > 0:
+    while len(inp) > 0:
 
         probs = []
 
-        for j in range(0, len(input)):
-            output, hiddens[j] = rnn(category_tensor, input[j], hiddens[j])
+        for j in range(0, len(inp)):
+            output, hiddens[j] = rnn(category_tensor, inp[j], hiddens[j])
             output += hprobs[j]
             probs.append(output.data)
 
@@ -41,14 +41,14 @@ def sample(category):
             probs = torch.cat(probs, 1)
 
         if iters != 0:
-            howmany = len(input)
+            howmany = len(inp)
         else:
             howmany = beam_size
 
         topv, topi = probs.topk(howmany)
         topv, topi = topv.numpy()[0], topi.numpy()[0]
 
-        input = []
+        inp = []
         old_names = list(names)
         old_hiddens = list(hiddens)
         old_hprobs = list(hprobs)
@@ -60,7 +60,7 @@ def sample(category):
                 hiddens.append(old_hiddens[getSoftmaxIndex(topi, j)])
                 names.append(old_names[getSoftmaxIndex(topi, j)] + all_letters[getLetterIndex(topi, j)])
                 hprobs.append(float(topv[j]))
-                input.append(Variable(torch.LongTensor([getLetterIndex(topi, j)])))
+                inp.append(Variable(torch.LongTensor([getLetterIndex(topi, j)])))
             else:
                 candidate = old_names[getSoftmaxIndex(topi, j)]
                 score = old_hprobs[getSoftmaxIndex(topi, j)] / len(candidate)
@@ -70,6 +70,7 @@ def sample(category):
 
 
     return outs, scores
+
 for cat in all_categories:
     outs, scores = sample(cat)
     print('====== {}'.format(cat))
