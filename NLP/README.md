@@ -9,7 +9,7 @@
 
 
 ## 🆕 Actualización
-- 31/07/21: README actualizado
+- 13/08/21: README actualizado
 
  TODO:
 - ✅ [Tokenización](./Notebooks/1_Tokenization_examples.ipynb), [stemmer, padding](./Notebooks/0_NLP_Basics.ipynb)
@@ -18,8 +18,8 @@
 - ✅ [RNN y aplicación a generación de nombres](./generacion-nombres-RNN)
 - ✅ [LSTM y aplicación en la predicción de precios](./Notebooks/6_LSTM.ipynb)
 - ✅ [Seq2Seq](7_Seq_2_Seq_LSTM.ipynb) e [introducción a mecanismos de atención](./Notebooks/8_Seq_2_Seq_Attention.ipynb)
-- ✅ [Introducción a los Transformers](./Notebooks/9_Introduccion_Transformer.ipynb), [Seq2Seq con Transformers](./Notebooks/10_Seq2Seq_con_Transformers.ipynb) y repaso por Hugging Face 
-- ✅ [Speech Recognition y diagrama MEL](.Notebooks/12_speech_command_recognition_with_torchaudio.ipynb)
+- ✅ [Introducción a los Transformers](./Notebooks/9_Introduccion_Transformer.ipynb), [Seq2Seq con Transformers](./Notebooks/10_Seq2Seq_con_Transformers.ipynb) y [repaso por Hugging Face](.Notebooks/12.0_HuggingFace.ipynb)
+- ✅ [Speech Recognition y diagrama MEL](.Notebooks/11_speech_command_recognition_with_torchaudio.ipynb)
 - ⬜️ BERT y variantes
 
 
