@@ -23,12 +23,12 @@
 
 
 ## 🆕 Actualización
-- 21/06/21: README actualizado
+- 15/08/21: README actualizado
 
  TODO:
 - ✅ Tópico [***Python para ML y DL***](Python-para-ML-y-DL) finalizado
 - ✅ Tópico [***ML para Data Science***](ML-para-Data-Science) finalizado
-- ⬜️ Tópico [***NLP***](NLP) finalizado
+- ✅ Tópico [***NLP***](NLP) finalizado
 - ⬜️ Tópico [***Despliegue de modelos***](Despliegue-de-modelos) finalizado
 
 ## ℹ️ Descripción
