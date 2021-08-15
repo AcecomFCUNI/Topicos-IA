@@ -20,7 +20,7 @@
 - ✅ [Seq2Seq](./Notebooks/7_Seq_2_Seq_LSTM.ipynb) e [introducción a mecanismos de atención](./Notebooks/8_Seq_2_Seq_Attention.ipynb)
 - ✅ [Introducción a los Transformers](./Notebooks/9_Introduccion_Transformer.ipynb), [Seq2Seq con Transformers](./Notebooks/10_Seq2Seq_con_Transformers.ipynb) y [repaso por Hugging Face](./Notebooks/12.0_HuggingFace.ipynb)
 - ✅ [Speech Recognition y diagrama MEL](./Notebooks/11_speech_command_recognition_with_torchaudio.ipynb)
-- ✅ [BERT y variantes] (./Notebooks/13. BERT_variantes.ipynb)
+- ✅ [Bert y variantes](./Notebooks/13_BERT_variantes.ipynb)
 
 
 
